@@ -1,0 +1,372 @@
+# English translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-05-15 19:12+0800\n"
+"PO-Revision-Date: 2020-05-15 17:03+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: app/auth/forms.py:15 app/auth/forms.py:26
+msgid "邮箱"
+msgstr "email"
+
+#: app/auth/forms.py:17 app/auth/forms.py:30
+msgid "密码"
+msgstr "password"
+
+#: app/auth/forms.py:18
+msgid "保持登录状态"
+msgstr "Stay logged in"
+
+#: app/auth/forms.py:19 app/templates/auth/login.html:8
+msgid "登录"
+msgstr "login"
+
+#: app/auth/forms.py:28 app/main/forms.py:31 app/main/forms.py:45
+#: app/main/forms.py:76
+msgid "用户名"
+msgstr "username"
+
+#: app/auth/forms.py:33
+msgid "两次输入密码不一致"
+msgstr ""
+
+#: app/auth/forms.py:34
+msgid "密码确认"
+msgstr "confirm Password "
+
+#: app/auth/forms.py:36 app/templates/auth/register.html:4
+#: app/templates/auth/register.html:8 app/templates/base.html:45
+msgid "注册"
+msgstr "sign up"
+
+#: app/auth/forms.py:46
+msgid "该邮箱已被注册"
+msgstr "This mailbox is already registered"
+
+#: app/auth/forms.py:54 app/main/forms.py:69 app/main/views.py:164
+msgid "该用户名已被使用"
+msgstr "The user name is already in use"
+
+#: app/auth/forms.py:61
+msgid "原密码"
+msgstr "Original password"
+
+#: app/auth/forms.py:63
+msgid "新密码"
+msgstr "New password"
+
+#: app/auth/forms.py:65 app/main/forms.py:38 app/main/forms.py:53
+msgid "提交"
+msgstr "Submit"
+
+#: app/auth/views.py:22
+msgid "密码或账户错误"
+msgstr "Wrong password or account"
+
+#: app/auth/views.py:32
+msgid "您已退出登录"
+msgstr "You have signed out"
+
+#: app/auth/views.py:49 app/auth/views.py:103
+msgid "确认您的账户"
+msgstr "Confirm your account"
+
+#: app/auth/views.py:82
+msgid "您已经确认过您的账户了！"
+msgstr "You have confirmed your account!"
+
+#: app/auth/views.py:84
+msgid "确认链接无效或已过期！"
+msgstr "Confirm that the link is invalid or expired!"
+
+#: app/auth/views.py:107
+msgid "新的确认邮件已发送至您的邮箱"
+msgstr "A new confirmation email has been sent to your mailbox"
+
+#: app/auth/views.py:117 app/main/views.py:223 app/main/views.py:243
+#: app/main/views.py:260 app/main/views.py:283 app/main/views.py:355
+msgid "该用户不存在"
+msgstr "The user does not exist"
+
+#: app/auth/views.py:121
+msgid "原密码错误"
+msgstr "Original password error"
+
+#: app/auth/views.py:126
+msgid "密码修改成功"
+msgstr "Password modified successfully"
+
+#: app/main/forms.py:15
+msgid "此刻的感想？"
+msgstr "How do you feel now?"
+
+#: app/main/forms.py:16
+msgid "发布"
+msgstr "release"
+
+#: app/main/forms.py:24
+msgid "确认"
+msgstr "confirm"
+
+#: app/main/forms.py:33 app/main/forms.py:47
+msgid "真实姓名"
+msgstr "Real name"
+
+#: app/main/forms.py:34 app/main/forms.py:48 app/templates/user.html:9
+msgid "性别"
+msgstr "Gender"
+
+#: app/main/forms.py:34 app/main/forms.py:48
+msgid "男"
+msgstr "male"
+
+#: app/main/forms.py:34 app/main/forms.py:48
+msgid "女"
+msgstr "female"
+
+#: app/main/forms.py:35 app/main/forms.py:49 app/templates/user.html:11
+msgid "地区"
+msgstr "region"
+
+#: app/main/forms.py:36 app/main/forms.py:50
+msgid "保持登陆"
+msgstr "Keep looged in"
+
+#: app/main/forms.py:37 app/main/forms.py:52
+msgid "个人简介"
+msgstr "Personal profile"
+
+#: app/main/forms.py:51
+msgid "角色"
+msgstr "role"
+
+#: app/main/forms.py:77 app/templates/base.html:26
+msgid "搜索"
+msgstr "search"
+
+#: app/main/views.py:101
+msgid "您已经成功提交评论"
+msgstr "You have successfully submitted comments"
+
+#: app/main/views.py:133
+msgid "微博已经更新"
+msgstr "microBlog has been updated"
+
+#: app/main/views.py:151
+msgid "您已删除该微博"
+msgstr "You have deleted this microBlog"
+
+#: app/main/views.py:173
+msgid "您已经更新了个人资料"
+msgstr "You have updated your profile"
+
+#: app/main/views.py:202
+msgid "资料已更新"
+msgstr "Data updated"
+
+#: app/main/views.py:226
+msgid "您已经关注了该用户"
+msgstr "You have followed the user"
+
+#: app/main/views.py:229
+msgid "您关注了该用户"
+msgstr "You followed the user"
+
+#: app/main/views.py:247
+msgid "您已取消关注该用户"
+msgstr "You have cancelled following this user"
+
+#: app/main/views.py:270 app/templates/user.html:29
+msgid "粉丝"
+msgstr "fans"
+
+#: app/main/views.py:293 app/templates/user.html:23 app/templates/user.html:32
+msgid "关注"
+msgstr "follow"
+
+#: app/templates/_comments.html:16
+msgid "该评论已经被管理员屏蔽"
+msgstr "The comment has been blocked by the administrator"
+
+#: app/templates/_comments.html:26
+msgid "恢复评论"
+msgstr "recovery comment"
+
+#: app/templates/_comments.html:30
+msgid "屏蔽评论"
+msgstr "block comment"
+
+#: app/templates/_posts.html:20
+msgid "详细"
+msgstr "more"
+
+#: app/templates/_posts.html:24
+msgid "编辑"
+msgstr "edit"
+
+#: app/templates/_posts.html:26 app/templates/_posts.html:32
+#: app/templates/post.html:9
+msgid "评论"
+msgstr "comment"
+
+#: app/templates/_posts.html:28
+msgid "删除"
+msgstr "delete"
+
+#: app/templates/_posts.html:30
+msgid "编辑[管理员]"
+msgstr "edit administrators"
+
+#: app/templates/_posts.html:34
+msgid "删除[管理员]"
+msgstr "delete administrators"
+
+#: app/templates/auth/change_password.html:4 app/templates/auth/login.html:4
+#: app/templates/auth/register.html:4 app/templates/auth/unconfirmed.html:3
+#: app/templates/base.html:3 app/templates/base.html:21
+#: app/templates/edit_post.html:4 app/templates/edit_profile.html:4
+#: app/templates/followers.html:4
+msgid "微博系统"
+msgstr "microBlog"
+
+#: app/templates/base.html:25
+msgid "首页"
+msgstr "home page"
+
+#: app/templates/base.html:28 app/templates/moderate.html:8
+msgid "评论管理"
+msgstr "manage comments"
+
+#: app/templates/base.html:38
+msgid "我的"
+msgstr "mine"
+
+#: app/templates/base.html:39
+msgid "账户"
+msgstr "account"
+
+#: app/templates/base.html:40
+msgid "登出"
+msgstr "log out"
+
+#: app/templates/auth/login.html:4 app/templates/base.html:44
+msgid "登陆"
+msgstr "log in"
+
+#: app/templates/edit_post.html:4 app/templates/edit_post.html:8
+msgid "编辑微博"
+msgstr "edit"
+
+#: app/templates/edit_profile.html:4 app/templates/edit_profile.html:8
+#: app/templates/user.html:17 app/templates/user.html:19
+msgid "编辑资料"
+msgstr "edit"
+
+#: app/templates/followers.html:11
+msgid "用户"
+msgstr "user"
+
+#: app/templates/followers.html:11
+msgid " 关注时间"
+msgstr "follow time"
+
+#: app/templates/index.html:7
+msgid "您好"
+msgstr "hello"
+
+#: app/templates/index.html:7
+msgid "陌生人"
+msgstr "strangers"
+
+#: app/templates/index.html:17
+msgid "全部"
+msgstr "all"
+
+#: app/templates/index.html:21
+msgid "我关注的人"
+msgstr "user i followed"
+
+#: app/templates/moderate.html:4
+msgid "微博系统 - 评论管理"
+msgstr "microBlog - manage comments"
+
+#: app/templates/post.html:5
+msgid "微博系统 - 发布微博"
+msgstr "microBlog - post microblog"
+
+#: app/templates/search_user.html:4
+msgid "微博系统 - 搜索用户"
+msgstr "microBlog - search user"
+
+#: app/templates/search_user.html:8
+msgid "搜索用户"
+msgstr "search user"
+
+#: app/templates/user.html:14
+msgid "账户注册时间"
+msgstr "sign up time"
+
+#: app/templates/user.html:15
+msgid "上次登录时间"
+msgstr "last log in"
+
+#: app/templates/user.html:25
+msgid "取消关注"
+msgstr "Unfollow"
+
+#: app/templates/user.html:35
+msgid "已关注"
+msgstr "followed"
+
+#: app/templates/user.html:39
+msgid "微博"
+msgstr "microBlog"
+
+#: app/templates/auth/change_password.html:4
+#: app/templates/auth/change_password.html:8
+msgid "修改密码"
+msgstr "change password"
+
+#: app/templates/auth/unconfirmed.html:3
+msgid "账户确认"
+msgstr "account confirm"
+
+#: app/templates/auth/unconfirmed.html:8
+msgid "亲爱的"
+msgstr "dear"
+
+#: app/templates/auth/unconfirmed.html:10
+msgid "您目前还没有确认您的账户"
+msgstr "You haven't confirmed your account yet"
+
+#: app/templates/auth/unconfirmed.html:12
+msgid "在登录本网站之前您应先确认您的账户。"
+msgstr "You should confirm your account before you log in to this website."
+
+#: app/templates/auth/unconfirmed.html:13
+msgid "请检查您的收件箱，我们已将确认邮件发送至您的邮箱了！"
+msgstr ""
+"Please check your inbox, we have sent the confirmation email to your "
+"mailbox!"
+
+#: app/templates/auth/unconfirmed.html:16
+msgid "是否需要重新发送一次？"
+msgstr "Do you need to resend it?"
+
+#: app/templates/auth/unconfirmed.html:17
+msgid "需要请点击"
+msgstr "if you need ,click here"
+
